@@ -12,14 +12,10 @@
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
 /* Source */
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css");
-
-/* Font */
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root,
 .theme-dark { /* Dark Mode */
@@ -29,33 +25,33 @@
     --header-secondary: var(--text-muted);
   
     /*  Text Color  */
-    --text-normal: #EC4A7B;
-    --text-muted: #e28b98;  /*  Text nombres y detalles q no podia cambiar  */
-    --channels-default: #EC4A7B; /* Color por defecto de los canales */
-    --text-link: #EC4A7B; /* Color del texto de enlaces */
+    --text-normal: #E6EDF3;
+    --text-muted: #898e92;  /*  Text nombres y detalles q no podia cambiar  */
+    --channels-default: #E6EDF3; /* Color por defecto de los canales */
+    --text-link: #E6EDF3; /* Color del texto de enlaces */
 
-    --interactive-normal: #EC4A7B;
+    --interactive-normal: #8957E5;
     --interactive-hover: #FFFFFF;
     --interactive-active: #FFFFFF;
-    --interactive-muted: #EC4A7B;
+    --interactive-muted: #FFFFFF;
     --modal-background: #AAE4D8;
   
     /* Background Color */
-    --background-primary: #FFFFFF;
-    --background-secondary: #FFCAD4;
-    --background-secondary-alt: #FFFFFF;
-    --background-tertiary: #F7A1AE;
+    --background-primary: #161b22;
+    --background-secondary: #0D1117;
+    --background-secondary-alt: #010409;
+    --background-tertiary: #010409;
     --background-tertiary-alt: var(--background-secondary-alt);
-    --background-accent: #F7A1AE;
-    --background-floating: #F7A1AE; /* Ventanas flotantes */
-    --background-modifier-hover: #F7A1AE;
-    --background-modifier-active: #F7A1AE;
-    --background-modifier-selected: #F7A1AE;
-    --background-modifier-accent: #F7A1AE;
-    --background-mentioned: #F7A1AE;
-    --border-mentioned: #F7A1AE;
-    --background-mentioned-hover: #F7A1AE;
-    --accent-color: #7aa2f7;
+    --background-accent: #0D1117;
+    --background-floating: #0D1117; /* Ventanas flotantes */
+    --background-modifier-hover: #161B22;
+    --background-modifier-active: #0D1117;
+    --background-modifier-selected: #0D1117; /*Hover de canales y amugos*/
+    --background-modifier-accent: #0D1117; /*Borders y separators*/
+    --background-mentioned: #8957e549;
+    --border-mentioned: #0D1117;
+    --background-mentioned-hover: #0D1117;
+    --accent-color: #8957E5;
   
     /* Folder Color */
     --folder-color: #F7A1AE;
@@ -64,8 +60,8 @@
     /* Scrollbars Color */
     --scrollbar-thin-thumb: transparent;
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #F7A1AE;
-    --scrollbar-auto-thumb-hover: #F7A1AE;
+    --scrollbar-auto-thumb: #010409;
+    --scrollbar-auto-thumb-hover: #010409;
     --scrollba-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
     --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
@@ -82,7 +78,7 @@
     --maximize-button-color: #f7bc1bde;
     --minimize-button-color: #12db33de;
 
-    --font: "Itim";
+    --font: "Geologica";
   }
 
 /* Made By Nacho Herrero*/
