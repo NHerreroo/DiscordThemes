@@ -1,8 +1,8 @@
 /**
- * @name CozyPinkSmoothTheme
+ * @name Github Discord Theme
  * @version 0.0.1
  * @author NachoHerrero
- * @description A Smooth Pink Cozy Theme
+ * @description A Github Discord Theme
  * @source https://github.com/NHerreroo/CozyDiscordTheme
  * @website https://solime12.itch.io
 */
@@ -18,8 +18,8 @@
 /* Source */
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css");
 
-
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root,
 .theme-dark { /* Dark Mode */
