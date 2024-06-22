@@ -1,0 +1,88 @@
+/**
+ * @name CozySmoothTheme
+ * @version 0.0.1
+ * @author NachoHerrero
+ * @description A Smooth Pink Cozy Theme
+ * @source https://github.com/NHerreroo/CozyDiscordTheme
+ * @website https://solime12.itch.io
+*/
+
+/* Imports */
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
+
+/* Source */
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+:root,
+.theme-dark { /* Dark Mode */
+
+    /*  Header Color  */
+    --header-primary: var(--text-normal);
+    --header-secondary: var(--text-muted);
+  
+    /*  Text Color  */
+    --text-normal: #EC4A7B;
+    --text-muted: #e28b98;  /*  Text nombres y detalles q no podia cambiar  */
+    --channels-default: #EC4A7B; /* Color por defecto de los canales */
+    --text-link: #EC4A7B; /* Color del texto de enlaces */
+
+    --interactive-normal: #EC4A7B;
+    --interactive-hover: #FFFFFF;
+    --interactive-active: #FFFFFF;
+    --interactive-muted: #EC4A7B;
+    --modal-background: #AAE4D8;
+  
+    /* Background Color */
+    --background-primary: #FFFFFF;
+    --background-secondary: #FFCAD4;
+    --background-secondary-alt: #FFFFFF;
+    --background-tertiary: #F7A1AE;
+    --background-tertiary-alt: var(--background-secondary-alt);
+    --background-accent: #F7A1AE;
+    --background-floating: #F7A1AE; /* Ventanas flotantes */
+    --background-modifier-hover: #F7A1AE;
+    --background-modifier-active: #F7A1AE;
+    --background-modifier-selected: #F7A1AE;
+    --background-modifier-accent: #F7A1AE;
+    --background-mentioned: #F7A1AE;
+    --border-mentioned: #F7A1AE;
+    --background-mentioned-hover: #F7A1AE;
+    --accent-color: #7aa2f7;
+  
+    /* Folder Color */
+    --folder-color: #F7A1AE;
+    --folder-color-light: #FFFFFF;
+  
+    /* Scrollbars Color */
+    --scrollbar-thin-thumb: transparent;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #F7A1AE;
+    --scrollbar-auto-thumb-hover: #F7A1AE;
+    --scrollba-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+    --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+  
+    /* Chat Box Color */
+    --channeltextarea-background: var(--background-secondary);
+    --channeltextarea-background-hover: var(--background-tertiary);
+  
+      /* Square avatar addons */
+      --avatar-roundess: 5px;
+  
+    /* Mac Titlebar addons */
+    --close-button-color: #e92a2ade;
+    --maximize-button-color: #f7bc1bde;
+    --minimize-button-color: #12db33de;
+
+    --font: "Itim";
+  }
+
+/* Made By Nacho Herrero*/
